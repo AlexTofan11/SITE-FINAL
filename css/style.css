@@ -3,18 +3,23 @@
     margin:0;
     text-decoration: none;
     vertical-align: middle;
-    background: url(img/church_1.png)
-      }
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
          nav.inline-block{
-            
             height: 60px;
             background: white;
             margin-top: -8px;
-            padding-top:20px;
+            padding-top: 20px;
             height: 40px;
             text-align: center;
             vertical-align: middle;
-
+            margin-left: 25%;
+            margin-right: 25%;
+            background: transparent;
+            display: flex;
          }
          nav.inline-block a{
             border: 1px solid blue;
@@ -23,6 +28,7 @@
             font-family: 'Monaco';
             font-size: 30px;
             grid-template-columns: 6, 1fr; 
+            background-color: white;
         }
          .inline-block a:hover{
             color: blue;
@@ -31,34 +37,40 @@
             display: inline-flex;
             height: 35px;
             padding-right: 4px;
-            vertical-align: middle;      
+            padding-top: 0px;
+            vertical-align: middle;
+         }
+         .antet-program{
+            display: block;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 33px;
+            letter-spacing: 0.25em;
+            color: #3E3F43;
+            text-align: center;
          }
          .grid-gap{
             display: grid;
-            grid-template-columns: 50px auto 50px;
-            grid-template-rows: 50px 50px;
-            width: 100%;
+            grid-template-columns: 70px auto 50px;
+            width: 500px;
             text-align: center;
+            margin: 10px auto 10px;
          }
          .grid-gap div{
             border: 1px solid springgreen;
             border-radius: 6px;
-            
          }
-        
+        .grid-text{
+         text-decoration-color: blue;
+        }
         .emblema{
          margin-left: 20px;
          margin-top: 10px;
          vertical-align: left: 
         }
-        .section_1{
-         background-color: aqua;
-         border-style: ridge;
-         text-align: right;
-         width: 550px;
-         height: 270px;
-      }
-         .section_2{
+        
+         .section_hom2{
             background-color: yellow;
             border-style: ridge;
             text-align: left;
@@ -73,6 +85,38 @@
       
          .box :first-child {
             align-self: center;
+      }
+
+      .section_dep1{
+         width: 800x;
+         height: 200px;
+         border: solid maroon;
+         border-radius: 5%;
+         margin-top: 10px;
+         margin-left: 50px;
+         margin-right: 50px;
+      }
+      .section_dep1_img{
+         width: 800px;
+         height: 100px;
+         display: flex;
+         
+      }
+      .img_dep{
+         width: 120px;
+         height: 80px;
+         margin-left: 10px;
+         margin-top: 10px;
+         border-radius: 10%;
+      }
+      h2{
+      margin-top: 25px;
+      color: lightcoral;
+      margin-left: 20%;
+      font-size: 50px;
+      }
+      .section_dep1_img :hover{
+         color: blue;
       }
          .footer
          {
