@@ -5,8 +5,8 @@
     vertical-align: middle;
 }
 body{
-    background-size: cover;
-    background-repeat: no-repeat;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
          nav.inline-block{
             height: 60px;
@@ -88,7 +88,7 @@ body{
       }
 
       .section_dep1{
-         width: 800x;
+         width: 1250px;
          height: 200px;
          border: solid maroon;
          border-radius: 5%;
@@ -97,10 +97,15 @@ body{
          margin-right: 50px;
       }
       .section_dep1_img{
-         width: 800px;
+         width: 1250px;
          height: 100px;
          display: flex;
-         
+         background-color: bisque;
+         border-radius: 5%;
+      }
+      .section_dep1_img :hover{
+         color: blue;
+
       }
       .img_dep{
          width: 120px;
@@ -114,10 +119,16 @@ body{
       color: lightcoral;
       margin-left: 20%;
       font-size: 50px;
+      margin-right: 20%;
       }
-      .section_dep1_img :hover{
-         color: blue;
-      }
+      
+.chitara{
+   width: auto;
+   height: 1250px;
+   background-image: url(img/guitar.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+}
          .footer
          {
             height: 40px;
